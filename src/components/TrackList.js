@@ -6,10 +6,10 @@ const TrackList = props => {
     return (
         <div className="TrackList">
             {trackList.map(
-                ({ song, artist, album }, i) =>
+                ({ song, artist, album, id }, i) =>
                     <Track
                         key={`track-${i}`}
-                        {...{ song, artist, album, onClick, btnIcon }}
+                        {...{ song, artist, album, id, onClick, btnIcon }}
                     />
             )}
         </div>

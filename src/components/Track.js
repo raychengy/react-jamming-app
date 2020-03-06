@@ -7,7 +7,7 @@ const Track = props => {
                 <h3>{props.song}</h3>
                 <p>{`${props.artist} | ${props.album}`}</p>
             </div>
-            <button className="Track-action" onClick={() => props.onClick(props.song)}>
+            <button className="Track-action" onClick={() => props.onClick(props.id)}>
                 {props.btnIcon}
             </button>
         </div>
