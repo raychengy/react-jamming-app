@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "REACT_APP_SPOTIFY_CLIENTID": "@spotify-clientid",
+      "REACT_APP_SPOTIFY_REDIRECT_URI": "@spotify-redirect-uri"
+    }
+  }
+}
